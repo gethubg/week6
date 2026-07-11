@@ -1,0 +1,29 @@
+[project]
+name = "trade-coach"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.116.0",
+    "cryptography==42.0.5",
+    "langgraph>=1.2.8",
+    "langgraph-checkpoint-sqlite>=3.1.0",
+    "langsmith>=0.10.0",
+    "mcp>=1.28.1",
+    "openai>=2.44.0",
+    "pandas>=2.2.0",
+    "pinecone>=9.1.0",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.59.1",
+    "yfinance>=1.5.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

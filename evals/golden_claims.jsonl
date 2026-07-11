@@ -1,0 +1,8 @@
+{"name": "grounded_trade_verdict", "type": "trade_verdict", "trade_id": "t1", "cited_score_ids": ["l1", "l2"], "expected_rejected": false}
+{"name": "trade_verdict_unknown_trade", "type": "trade_verdict", "trade_id": "ghost", "cited_score_ids": [], "expected_rejected": true}
+{"name": "trade_verdict_bad_score_id", "type": "trade_verdict", "trade_id": "t2", "cited_score_ids": ["fake-id"], "expected_rejected": true}
+{"name": "grounded_pattern_disposition_effect", "type": "pattern", "description": "sells winners early", "evidence_trade_ids": ["t2"], "cited_concept": "Disposition Effect", "expected_rejected": false}
+{"name": "pattern_wrong_direction_disposition_effect", "type": "pattern", "description": "sells winners early", "evidence_trade_ids": ["t3"], "cited_concept": "Disposition Effect", "expected_rejected": true}
+{"name": "pattern_concept_not_retrieved", "type": "pattern", "description": "trades too often", "evidence_trade_ids": ["t1"], "cited_concept": "Revenge Trading", "expected_rejected": true}
+{"name": "pattern_unknown_evidence_trade", "type": "pattern", "description": "sells winners early", "evidence_trade_ids": ["ghost"], "cited_concept": "Disposition Effect", "expected_rejected": true}
+{"name": "grounded_pattern_unregistered_concept_checker", "type": "pattern", "description": "trades too frequently", "evidence_trade_ids": ["t1"], "cited_concept": "Overtrading", "expected_rejected": false}

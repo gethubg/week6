@@ -1,0 +1,13 @@
+<svg width="220" height="48" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tc-mark-grad" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0E6B57"/>
+      <stop offset="55%" stop-color="#B98900"/>
+      <stop offset="100%" stop-color="#C1502E"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="46" height="46" rx="12" fill="#1B2430"/>
+  <polyline points="9,32 18,22 25,27 39,12" fill="none" stroke="url(#tc-mark-grad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="30,12 39,12 39,21" fill="none" stroke="url(#tc-mark-grad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="58" y="30" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="-0.3" fill="#1B2430">Trade Coach</text>
+</svg>
